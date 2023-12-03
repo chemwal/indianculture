@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background: #000;
+  overflow: hidden;
+}
+img {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 25vw;
+}
+.main {
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+.main .intro_text {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
