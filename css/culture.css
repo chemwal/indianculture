@@ -2,12 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-y: hidden;
 }
 body {
   background-color: lightyellow;
 }
-
 nav {
   display: flex;
   justify-content: center;
@@ -39,11 +37,30 @@ nav ul li a:hover {
   color: #fff;
   background-color: coral;
 }
-main {
-  font-family: 'Poppins', sans-serif;
+
+.content_culture {
   max-width: 1280px;
-  margin: 2em auto;
-  text-align: center;
-  font-size: 2em;
+  margin: 0 auto;
+}
+.para_culture {
+  font-size: 1.5rem;
+  padding: 2em;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
   border: 4px solid black;
+}
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imageGallery img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+.imageGallery img:hover {
+  transform: scale(1.1);
 }
