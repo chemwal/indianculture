@@ -52,6 +52,12 @@ main {
   padding: 8px;
   font-family: 'Poppins', sans-serif;
 }
+main .intro_para {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
 main h3 {
   padding-top: 1em;
   font-family: 'Kalnia', sans-serif;

@@ -43,14 +43,20 @@ nav ul li a:hover {
 .content_culture {
   max-width: 1280px;
   margin: 0 auto;
+  border: 4px solid black;
+}
+.content_culture h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1em;
+  font-family: 'Poppins', sans-serif;
 }
 .para_culture {
   font-size: 1.5rem;
-  padding: 2em;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   text-align: justify;
-  border: 4px solid black;
+  padding: 0.2em;
 }
 .imageGallery {
   display: flex;
