@@ -45,8 +45,6 @@ nav ul li a:hover {
 hr {
   width: 1280px;
   margin: 0 auto;
-  border: 1px solid black;
-  padding: 20px;
 }
 main {
   font-family: 'Kalnia', sans-serif;
@@ -59,4 +57,33 @@ main {
 main .intro .welcome {
   font-weight: 600;
   font-size: 1.5em;
+}
+main .video {
+  margin: 2em auto;
+  width: 90%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 1em 0;
+  }
+  nav ul li a {
+    font-size: 1.5em;
+  }
+  main {
+    font-size: 1.5em;
+  }
+  main .intro .welcome {
+    font-size: 1em;
+  }
+  main .video {
+    width: 100%;
+  }
 }
